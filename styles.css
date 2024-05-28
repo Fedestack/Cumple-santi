@@ -434,7 +434,6 @@ body::before {
         background-position: center;
         background-size: cover;
         position: relative;
-        overflow: hidden;
     }
 
 
