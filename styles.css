@@ -419,8 +419,14 @@ body::before {
         width: 100dvw;
         height: 100dvh;
         background-image: url(img/mediano.png);
+        background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
+        font-family: "Gloria Hallelujah", cursive;
+        font-weight: 400;
+        font-style: normal;
+        position: relative;
+        overflow: hidden;
     }
 }
 
@@ -432,7 +438,10 @@ body::before {
         background-image: url(img/full.png);
         background-repeat: no-repeat;
         background-position: center;
-        background-size: cover;
+        background-size: auto;
+        font-family: "Gloria Hallelujah", cursive;
+        font-weight: 400;
+        font-style: normal;
         position: relative;
     }
 
