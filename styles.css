@@ -425,6 +425,18 @@ body::before {
 }
 
 
-/* @media screen and (min-width: 769px) and (max-width: 1024px){
+@media screen and (min-width: 769px) {
+    body {
+        width: 100dvw;
+        height: 100dvh;
+        background-image: url(img/full.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+    }
 
-}  */
+
+
+}  
